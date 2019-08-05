@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+  "fmt"
+
+  "github.com/user/reversestring"
+  )
 
 func main() {
-  fmt.Println("hello first Go; second commit")
+  fmt.Println(reversestring.Reverse("hello first Go; second commit"))
 }
