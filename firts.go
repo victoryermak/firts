@@ -7,5 +7,5 @@ import (
   )
 
 func main() {
-  fmt.Println(reversestring.Reverse("hello first Go; second commit"))
+  fmt.Println(reversestring.Reverse("hello 01 first Go; second commit"))
 }
